@@ -1,5 +1,5 @@
-import React from 'react'
-import { RiDeleteBack2Fill } from "react-icons/ri"
+import React from 'react';
+import { RiDeleteBack2Fill } from "react-icons/ri";
 import axios from "axios";
 
 
@@ -39,7 +39,7 @@ const TaskList = ({ task, getTask }) => {
                 )
             })}
         </div>
-    )
+    );
 }
 
 export default TaskList
