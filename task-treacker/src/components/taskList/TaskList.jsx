@@ -32,14 +32,14 @@ const TaskList = ({ task, getTask }) => {
                                     cursor: "pointer",
                                     marginRight: "20px",
                                     fontSize: "2rem",
-                                    boxShadow: "2px 2px 2px #ECAB9E"
+                                    boxShadow: "2px 2px 2px #ECAB9E",
                                 }} />
                         </div>
                     </div>
-                )
+                );
             })}
         </div>
     );
 }
 
-export default TaskList
+export default TaskList;

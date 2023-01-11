@@ -11,7 +11,6 @@ const AddTask = ({ getTask }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const newTask = { task, date }
-        console.log("task geldi mi:", newTask)
         addNewTask(newTask)
         setTask("")
         setDate("")
@@ -46,7 +45,7 @@ const AddTask = ({ getTask }) => {
                 </div>
             </Form>
         </div>
-    );
+    )
 }
 
 export default AddTask
